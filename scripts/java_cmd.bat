@@ -1,0 +1,13 @@
+@echo off
+set CLASSPATH=
+set DEV_HOME=C:\javadev
+set JAVA_HOME=%DEV_HOME%\pleiades\java\17
+set CATALINA_HOME=%DEV_HOME%\pleiades\tomcat\9
+set GIT_HOME=%DEV_HOME%\PortableGit
+set MVN_HOME=%DEV_HOME%\maven
+set MARIADB_HOME=%DEV_HOME%\mariadb
+set LANG=ja_JP.utf-8
+set LC_ALL=ja_JP.utf-8
+set path=%DEV_HOME%\scripts;%MVN_HOME%\bin;%JAVA_HOME%\bin;%GIT_HOME%\bin;%CATALINA_HOME%\bin;%MARIADB_HOME%\bin;%path%
+set HOME=%DEV_HOME%
+cd %DEV_HOME%\pleiades\workspace
