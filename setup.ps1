@@ -25,3 +25,9 @@ $lnk = $shell.CreateShortcut("$curdir\eclipse.lnk")
 $lnk.TargetPath = "$curdir\pleiades\eclipse\eclipse.exe"
 $lnk.WorkingDirectory = "$curdir\pleiades\eclipse"
 $lnk.Save()
+
+$orgini = Get-Content .\pleiades\eclipse\eclipse.ini
+Copy-Item -Path .\pleiades\eclipse\eclipse.ini -Destination .\pleiades\eclipse\eclipse.ini.org
+echo "-vm" | Out-File -Encoding default .\pleiades\eclipse\eclipse.ini
+echo "$curdir\jdk\bin" | Out-File -Append -Encoding default .\pleiades\eclipse\eclipse.ini
+Out-File -InputObject $orgini -Append -Encoding default .\pleiades\eclipse\eclipse.ini
