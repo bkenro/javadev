@@ -5,7 +5,7 @@
 必要に応じて下記ソフトウェアを所定の名前のフォルダにインストールして使用します。  
 （$JAVADEV はこのプロジェクトをローカルに展開した場所です）
 
-|ソフトウェア|展開先サブフォルダ|
+|ソフトウェア|展開先サブフォルダ／コピー先|
 |---|---|
 |[JDK](https://adoptium.net/releases.html?variant=openjdk17&jvmVariant=hotspot)|$JAVADEV\\**jdk**|
 |[Pleiades](https://mergedoc.osdn.jp/)|$JAVADEV\\**pleiades**|
