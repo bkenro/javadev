@@ -2,15 +2,15 @@
 
 [シナジークエスト](https://synergyquest.jp/)の Java 研修を Windows 環境で行うときに使用するスクリプトを収めたフォルダです。
 
-必要に応じて下記ソフトウェアを所定の名前のフォルダにインストールして使用します。  
+必要に応じて下記ソフトウェアを所定の名前のフォルダにインストールして使用します。
 （$JAVADEV はこのプロジェクトをローカルに展開した場所です）
 
 |ソフトウェア|展開先サブフォルダ／コピー先|
 |---|---|
 |[JDK](https://adoptium.net/releases.html?variant=openjdk17&jvmVariant=hotspot)|$JAVADEV\\**jdk**|
-|[Pleiades](https://mergedoc.osdn.jp/)|$JAVADEV\\**pleiades**|
+|[Pleiades](https://willbrains.jp/)|$JAVADEV\\**pleiades**|
 |[MariaDB](https://mariadb.org/download/)|$JAVADEV\\**mariadb**|
-|[MariaDB Connector/J](https://mariadb.com/downloads/connectors/connectors-data-access/java8-connector)（Type4 JDBC ドライバ）|$JAVADEV\\**mariadb-java-client-2.x.x.jar**|
+|[MariaDB Connector/J](https://mariadb.com/downloads/connectors/connectors-data-access/java8-connector)（Type4 JDBC ドライバ）|$JAVADEV\\**mariadb-java-client-3.x.x.jar**|
 |[Graphviz](https://graphviz.org/download/)|$JAVADEV\\**Graphviz**|
 |[Git for Windows Portable](https://git-scm.com/download/win)|$JAVADEV\\**PortableGit**|
 |[Tomcat](https://tomcat.apache.org/)|$JAVADEV\\**tomcat**|
