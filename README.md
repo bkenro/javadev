@@ -7,7 +7,7 @@
 
 |ソフトウェア|展開先サブフォルダ／コピー先|
 |---|---|
-|[JDK](https://adoptium.net/releases.html?variant=openjdk17&jvmVariant=hotspot)|$JAVADEV\\**jdk**|
+|[JDK](https://adoptium.net/temurin/releases/?variant=openjdk17&jvmVariant=hotspot&os=windows&arch=x64&package=jdk)|$JAVADEV\\**jdk**|
 |[Pleiades](https://willbrains.jp/)|$JAVADEV\\**pleiades**|
 |[MariaDB](https://mariadb.org/download/)|$JAVADEV\\**mariadb**|
 |[MariaDB Connector/J](https://mariadb.com/downloads/connectors/connectors-data-access/java8-connector)（Type4 JDBC ドライバ）|$JAVADEV\\**mariadb-java-client-3.x.x.jar**|
